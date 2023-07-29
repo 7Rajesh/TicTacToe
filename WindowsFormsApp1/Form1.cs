@@ -38,7 +38,19 @@ namespace WindowsFormsApp1
         {
             
         }
+        private void btn_enable_false()
+        {
+            btn1.Enabled = false;
+            btn2.Enabled = false;
+            btn3.Enabled = false;
+            btn4.Enabled = false;
+            btn5.Enabled = false;
+            btn6.Enabled = false;
+            btn7.Enabled = false;
+            btn8.Enabled = false;
+            btn9.Enabled = false;
 
+        }
         private void btn1_Click(object sender, EventArgs e)
         {
             if (btn1.Text == "")
@@ -188,6 +200,20 @@ namespace WindowsFormsApp1
                     checker = false;
                 }
             }
+        }
+
+        private void resetbtn_Click(object sender, EventArgs e)
+        {
+            btn1.Text = "";
+            btn2.Text = "";
+            btn3.Text = "";
+            btn4.Text = "";
+            btn5.Text = "";
+            btn6.Text = "";
+            btn7.Text = "";
+            btn8.Text = "";
+            btn9.Text = "";
+           // btn_enable_false();
         }
     }
 }

@@ -41,8 +41,8 @@
             this.resetbtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.o = new System.Windows.Forms.Label();
-            this.x = new System.Windows.Forms.Label();
+            this.lblo = new System.Windows.Forms.Label();
+            this.lblx = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.newG = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -189,33 +189,33 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Player 2:";
             // 
-            // o
+            // lblo
             // 
-            this.o.AutoSize = true;
-            this.o.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.o.Location = new System.Drawing.Point(80, 12);
-            this.o.Name = "o";
-            this.o.Size = new System.Drawing.Size(14, 16);
-            this.o.TabIndex = 4;
-            this.o.Text = "0";
+            this.lblo.AutoSize = true;
+            this.lblo.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lblo.Location = new System.Drawing.Point(80, 12);
+            this.lblo.Name = "lblo";
+            this.lblo.Size = new System.Drawing.Size(14, 16);
+            this.lblo.TabIndex = 4;
+            this.lblo.Text = "0";
             // 
-            // x
+            // lblx
             // 
-            this.x.AutoSize = true;
-            this.x.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.x.Location = new System.Drawing.Point(80, 45);
-            this.x.Name = "x";
-            this.x.Size = new System.Drawing.Size(14, 16);
-            this.x.TabIndex = 5;
-            this.x.Text = "0";
+            this.lblx.AutoSize = true;
+            this.lblx.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lblx.Location = new System.Drawing.Point(80, 45);
+            this.lblx.Name = "lblx";
+            this.lblx.Size = new System.Drawing.Size(14, 16);
+            this.lblx.TabIndex = 5;
+            this.lblx.Text = "0";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.x);
+            this.panel2.Controls.Add(this.lblx);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.o);
+            this.panel2.Controls.Add(this.lblo);
             this.panel2.Location = new System.Drawing.Point(15, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(114, 72);
@@ -275,8 +275,8 @@
         private System.Windows.Forms.Button resetbtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label o;
-        private System.Windows.Forms.Label x;
+        private System.Windows.Forms.Label lblo;
+        private System.Windows.Forms.Label lblx;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button newG;
         private System.Windows.Forms.Button button1;

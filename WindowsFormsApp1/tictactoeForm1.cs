@@ -12,11 +12,11 @@ using System.Windows.Forms.VisualStyles;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class tictactoeForm1 : Form
     {
         bool checker;
         int x, o;
-        public Form1()
+        public tictactoeForm1()
         {
             InitializeComponent();
              
